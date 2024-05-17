@@ -9,6 +9,6 @@ def enumerate_list(list):
 def enumerate_backwards(list):
     nuevalista=[]
 	for index,palabra in enumerate(list):
-		if palabra != " ":
+		if palabra:
 			nuevalista +=[f"{len(nuevalista)}. {palabra[::-1]}"]
 	return nuevalista
