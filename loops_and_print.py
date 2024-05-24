@@ -1,5 +1,5 @@
 def enumerate_list(list):
-    nuevalista=[]
+	nuevalista=[]
 	for index,palabra in enumerate(list):
 		if palabra != "":
 			nuevalista.append(f"{len(nuevalista)}. {palabra}")
@@ -7,7 +7,7 @@ def enumerate_list(list):
 
 
 def enumerate_backwards(list):
-    nuevalista=[]
+	nuevalista=[]
 	for index,palabra in enumerate(list):
 		if palabra != "":
 			nuevalista.append(f"{len(nuevalista)}. {palabra[::-1]}")
